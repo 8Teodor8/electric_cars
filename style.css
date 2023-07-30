@@ -326,6 +326,7 @@ header{
     }
     .slider{
         width: 100vw;
+        overflow: auto;
     }
     .Information{
        width: 90vw; 
@@ -343,7 +344,7 @@ header{
     .Lucid_interior{
         flex-direction: column-reverse;
     }
-    
+
 }
 
 
