@@ -190,6 +190,38 @@ outline: none;
 .Lucid_interior{
     display: flex;
 }
+footer{
+padding: 50px;
+background-color: #122844;
+}
+footer img{
+    margin:0 20px;
+}
+.media{
+    display:flex
+}
+.social img:hover{
+transform: scale(0.5);
+transition: all 0.5s;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 500px;
+}
+nav a{
+    color: #aeade9;
+    font-family: Tenor ;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+nav a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
 @keyframes go{
     from{
         transform: translateX(0);
